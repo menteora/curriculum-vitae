@@ -9,7 +9,7 @@ const WhoIHelp: React.FC = () => {
     <section id="who-i-help">
       <h2 className="text-3xl font-bold text-center mb-8 text-slate-900 dark:text-white flex items-center justify-center">
         <Users className="h-8 w-8 mr-3 text-primary-500" />
-        Per Chi {title}
+        {title}
       </h2>
       <Card>
         <div className="p-8">

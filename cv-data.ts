@@ -126,11 +126,11 @@ const cvData = {
     }
   },
   "whoIHelp": {
-    "title": "Lo Faccio",
+    "title": "Il Mio Target",
     "items": [ "CEO", "Comitati Direttivi", "Aziende", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità." ]
   },
   "whereIApplyIt": {
-    "title": "Lo Applico",
+    "title": "I Miei Ambiti",
     "items": [ "IT e Organizzazione Aziendale", "Analisi e Sviluppo Web e Progetti AI", "Trasformazione Culturale e Agile", "Progettazione di Esperienze Umane" ]
   },
   "certifications": [

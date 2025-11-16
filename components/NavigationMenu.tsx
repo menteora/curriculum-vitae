@@ -25,7 +25,7 @@ const NavigationMenu: React.FC = () => {
 
   return (
     <section id="navigation-menu">
-      <h2 className="text-2xl font-bold text-center mb-8 text-slate-700 dark:text-slate-300">Esplora il Profilo</h2>
+      <h2 className="text-2xl font-bold text-center mb-8 text-slate-700 dark:text-slate-300">Il mio profilo</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
         {cvData.navigation.map((item) => {
           const IconComponent = iconComponents[item.icon];
@@ -44,7 +44,7 @@ const NavigationMenu: React.FC = () => {
             >
               <Card className="text-center h-full hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors duration-200">
                 <div className="p-4 flex flex-col items-center justify-center h-full">
-                  <span className="text-xs text-slate-400 dark:text-slate-500 uppercase font-semibold mb-1">{item.w_question}</span>
+                  <span className="text-xs text-slate-400 dark:text-slate-500 uppercase font-semibold mb-2">{item.w_question}</span>
                   {IconComponent && <IconComponent className="h-8 w-8 mb-2 text-primary-500 group-hover:scale-110 transition-transform" />}
                   <h3 className="text-sm font-semibold text-slate-800 dark:text-slate-200">{item.title}</h3>
                 </div>

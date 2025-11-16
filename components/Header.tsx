@@ -93,7 +93,7 @@ const Header: React.FC = () => {
             }
         }
 
-        pdf.save('Profilo-Professionale.pdf');
+        pdf.save("CV Luca D'Amico.pdf");
     } catch (error) {
         console.error("Error generating PDF:", error);
     } finally {
@@ -192,7 +192,7 @@ const Header: React.FC = () => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'Profilo-Professionale.docx';
+      a.download = "CV Luca D'Amico.docx";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

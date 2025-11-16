@@ -9,7 +9,7 @@ const WhereIApplyIt: React.FC = () => {
     <section id="where-i-apply-it">
       <h2 className="text-3xl font-bold text-center mb-8 text-slate-900 dark:text-white flex items-center justify-center">
         <Pin className="h-8 w-8 mr-3 text-primary-500" />
-        Dove {title}
+        {title}
       </h2>
       <Card>
         <div className="p-8">
