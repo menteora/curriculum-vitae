@@ -6,7 +6,7 @@ const cvData = {
     "name": "Luca D'Amico",
     "title": "Responsabile IT, Scrum Master, CHO, Sviluppatore e Analista",
     "location": "Bologna, Emilia Romagna, Italia",
-    "avatarUrl": "https://picsum.photos/seed/lucadamicoprofile/200",
+    "avatarUrl": "/avatar.jpg",
     "finalFormula": "",
     "contacts": [
       { "type": "email", "value": "menteora@gmail.com", "url": "mailto:menteora@gmail.com", "icon": "Mail" },
